@@ -56,7 +56,22 @@ export default function App() {
 }
 
 function Home() {
-  return <h2>Home</h2>;
+  return(
+    <div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-12">
+            <h2>Home</h2>
+            <ul className="list-unstyled">
+              <li>
+                  Navigate to the Employee and Manager screens through navigation bar
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function Manager() {

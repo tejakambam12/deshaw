@@ -27,6 +27,42 @@
 .App-link {
   color: #61dafb;
 }
+.formHeading{
+  padding: 8px 0;
+  background-color: #f6f8f8;
+}
+
+.customForm textarea{
+  border: none;
+}
+.customForm .form-group{
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.customForm .form-control:focus{
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+.commentsSection{
+  background-color: #e3e7e9;
+}
+.rightBorder{
+  border-right: 2px solid #d7dfe1;
+}
+.commentedDate{
+  font-size: 12px;
+}
+.svgSection{
+  right: -8px;
+  top: -4px;
+}
+.svgSection svg{
+  font-size: 14px;
+}
+.readSection{
+  background-color: #e9ecef;
+}
 
 @keyframes App-logo-spin {
   from {
